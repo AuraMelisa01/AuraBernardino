@@ -1,0 +1,13 @@
+.foto {
+  width: 40%;
+  height: 60%;
+  margin-top: 12px; /*margen superior*/
+  margin-bottom: 13px; /*margen inferior*/
+
+}
+
+.centrar {
+  text-align: center;
+}
+
+
