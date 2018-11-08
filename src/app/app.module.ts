@@ -7,7 +7,8 @@ import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
-import { FooterComponent } from './components/footer/footer.component';
+
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,11 @@ import { FooterComponent } from './components/footer/footer.component';
     SobreMiComponent,
     PortafolioComponent,
     ContactoComponent,
-    HabilidadesComponent,
-    FooterComponent
+    HabilidadesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

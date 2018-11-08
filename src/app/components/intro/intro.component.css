@@ -17,7 +17,7 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #82b1ff !important;
+  background-color: #3F51B5!important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -26,14 +26,21 @@ header,
 
 @media (max-width: 1125px) {
   .navbar:not(.top-nav-collapse) {
-    background: #82b1ff !important;
+    background: #3F51B5 !important;
   }
 }
 
 h5 {
-  letter-spacing: 3px;
+  letter-spacing: 6px;
+  font-size: 150%;
 }
 
 .name {
-  font-size: 60px;
+  font-size: 350%;
+}
+
+.style {
+  background-image: url('https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2017/05/wallpaper.jpg');background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

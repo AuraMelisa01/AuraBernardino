@@ -1,6 +1,6 @@
 .foto {
-  width: 40%;
-  height: 60%;
+  width: 65%;
+  height: 65%;
   margin-top: 12px; /*margen superior*/
   margin-bottom: 13px; /*margen inferior*/
 
@@ -10,4 +10,22 @@
   text-align: center;
 }
 
+.style {
+  /* background-image: url('https://img.freepik.com/foto-gratis/acuarela-azul-degradado-fondo-esquina_24836-34.jpg?size=626&ext=jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.indigoColor {
+  background: #3F51B5;
+}
+
+.justifyText {
+  text-align: justify;
+}
+
+.margin {
+  margin-left: auto;
+  margin-right: auto;
+}

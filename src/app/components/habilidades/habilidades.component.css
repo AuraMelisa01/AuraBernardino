@@ -1,0 +1,16 @@
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.col-md-2-1 {
+  position: inherit;
+    /* width: 100%; */
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
