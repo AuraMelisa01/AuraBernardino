@@ -36,7 +36,8 @@ h5 {
 }
 
 .name {
-  font-size: 350%;
+  font-size: 3em;
+  font-family: 'McLaren', cursive;
 }
 
 .style {
@@ -44,3 +45,8 @@ h5 {
   background-size: cover;
   background-position: center;
 }
+
+.font {
+  font-family: 'McLaren', cursive;
+}
+
